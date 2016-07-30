@@ -1,0 +1,9 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "taskName": "Copy files to html dir",
+    "version": "0.1.0",
+    "command": "sudo cp −Rf ./* /var/www/html",
+    "isShellCommand": true,
+    "showOutput": "always"
+}

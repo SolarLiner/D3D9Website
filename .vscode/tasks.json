@@ -3,7 +3,10 @@
     // for the documentation about the tasks.json format
     "taskName": "Copy files to html dir",
     "version": "0.1.0",
-    "command": "sudo cp −Rf ./* /var/www/html",
+    "command": "/bin/bash",
+    "args": [
+        "./utils/copy.sh"        
+    ],
     "isShellCommand": true,
     "showOutput": "always"
 }
